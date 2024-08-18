@@ -14,8 +14,8 @@ System Operation:
 1. Start: Powering on the Arduino initiates the sensors and other components.
 2. Data Acquisition: The temperature and gas sensors continuously send data to the Arduino.
 3. Data Processing: The Arduino compares the sensor data with predefined threshold values.
-4. Alarm Activation: If the temperature or gas concentration crosses the threshold, the Arduino activates the alarm and notifies users through LEDs if it surpasses certain points.
-5. Display: The LCD screen displays real-time temperature and gas levels, providing context on the environment.
+4. Alarm Activation: If the temperature or gas concentration crosses the threshold, the Arduino activates the alarm and notifies users through LED and buzzer if it surpasses certain points.
+5. Serial monitor: It displays real-time temperature and gas levels, providing context on the environment.
 
 Applications:
 - Domestic Safety: This system is essential in homes, detecting fires early and providing instant alarms.
