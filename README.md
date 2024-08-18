@@ -1,9 +1,11 @@
 # Fire-Alarm-system
 
 Overview:
+
 Fire Alarm System is a device that can capable of detecting the outbreak Of fire at any point in an instant time by monitoring environmental conditions associated with flames such as changes in temperature and gas levels. The project applies an Arduino microcontroller, temperature sensor, and a gas sensor got to work with respect to the arrangement of hints for detecting that there is fire.
 
 Working Principle:
+
 The Fire Alarm System continues working by checking the surroundings for any sudden rise in temperature or the presence of potentially dangerous gases. Sensors pass normal or digital notifications to Arduino, which then checks those values against predefined limits.
 - Temperature Control: The temperature sensor constantly measures the room temperature. If the temperature exceeds a certain threshold, suggesting a fire, the Arduino triggers an alarm.
 - Gas Detection: The gas sensor detects the concentration of gases in the air. If the gas concentration crosses an allowable limit, the system triggers an alarm, indicating a potential fire hazard.
